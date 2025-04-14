@@ -1,0 +1,64 @@
+.pizza{
+    width: 100%;
+    background-color: #1F1F21;
+    height: 800px;
+    padding-top: 100px;
+}
+.meals{
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 120px;
+   
+}
+.meals h1{
+    color: white;
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.meals p{
+    color: gray;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.boxs{
+    width: 100%;
+    height: 230px;
+    background-color: #161619;
+    display: flex;
+    flex-shrink: 1;
+}
+.italian{
+    width: 20%;
+    height: 250px;
+}
+.italian1{
+    width: 20%;
+    height: 230px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.italian1 h1{
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.italian1 p{
+    color: gray;
+    margin-top: 20px;
+}
+.italian1 span{
+    color: #FAC564;
+    font-size: 20px;
+
+}
+.italian1 span button{
+    padding-inline: 20px;
+    padding-block:10px;
+    margin-left: 10px;
+}
+img{
+    width: 100%;
+    height: 230px;
+}

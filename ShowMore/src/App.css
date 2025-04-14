@@ -1,0 +1,19 @@
+button{
+  padding-inline: 10px;
+  padding-block: 10px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.div{
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}

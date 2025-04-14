@@ -1,0 +1,50 @@
+.pasta h1{
+     color: white;
+}
+.pasta{
+    width: 100%;
+    background-color: #1F1F21;
+    height: 800px;
+    /* text-align: center; */
+    padding-top: 50px;
+}
+.pasta2{
+    text-align: center;
+}
+.pasta p{
+    color: gray;
+    margin-top: 20px;
+}
+.pasta1{
+    width: 80%;
+    height: 470px;
+    display: flex;
+    gap: 30px;
+    /* background-color: black; */
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.pasta1 .Delicious{
+    width: 30%;
+    height: 470px;
+}
+.pasta1 .Delicious img{
+    height: 300px;
+}
+.pasta1 .Delicious p{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.pasta1 .Delicious h1{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.pasta1 .Delicious h6{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+    color: gray;
+    font-weight: lighter;
+}
