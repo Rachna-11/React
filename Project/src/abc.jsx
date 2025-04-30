@@ -12,7 +12,6 @@ const InputForm = () => {
       return;
     }
 
-    // Create new comment
     const newComment = {
       name: name,
       message: msg
@@ -53,9 +52,9 @@ const InputForm = () => {
         <button onClick={handlBtn}>Post</button>
       </div>
 
-      <div className="allComments ">
+      <div className="allComments border-solid">
         {comments.map((comment, index) => (
-          <div key={index} className="comment border-solid border-white border-[2px] mt-[20px] rounded-2xl px-[20px] h-[90px] py-[10px]">
+          <div key={index} className="comment">
             <strong>{comment.name}</strong>
             <p>{comment.message}</p>
           </div>
